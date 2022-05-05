@@ -1,0 +1,24 @@
+·Enviar invitacion a una persona a nuestro repositorio
+
+1) en nuestro repositorio, nos dirigimos a Settings
+2) Apretamos Add People
+3) Se Agrega a la a la persona por nombre/Mail/Nombre Completo
+4) Apretamos en Select a Collaborator above.
+
+·Aceptar invitacion a otra persona de su repositorio
+
+1) Nos llega una invitacion por Email, lo cual aceptamos desde alli.
+2) Nos dirigimos a la aplicacion de GIT.
+3) En current Reposity apretamos Add => Clone Repository => Buscamos el repositorio que queremos usar y clonamos.
+4) Ingresamos desde la pagina al repositorio que queremos ver
+5) ingresamos a la carpeta donde esta creado el archivo.
+6) Ingresamos al archivo
+7) Buscamos => Edit this File
+8) Comentamos el archivo
+9) Le damos a Commit changes (Se guarda el comentario)
+10) Vamos a la aplicacion. 
+11) Abrimos el repositorio de la persona que queremos ver lo que agregamos.
+12) Apretamos Fetch Origin
+13) Pull
+
+Ahora podemos verlos comentarios que hicimos en el repositorio.
