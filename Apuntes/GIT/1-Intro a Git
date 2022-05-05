@@ -1,1 +1,14 @@
+·Funciones básicas de Git
 
+1) Commit: realiza una captura del proyecto creando una nueva versión de él
+	     en el repositorio actual. Es decir, guarda todos los cambios hechos.
+
+2) Fetch: permite recuperar todos los ficheros de un repositorio remoto que
+	    hayan sido modificados por otros colaboradores del proyecto,
+	    ubicándolos en una rama oculta en nuestro repositorio local.
+
+3) Pull: sincroniza y obtiene todos los cambios del repositorio remoto a la
+	   rama en la que estamos trabajando actualmente.
+
+4) Push: se utiliza para enviar todos los commits actualizados desde nuestro
+	   repositorio local al repositorio remoto.
