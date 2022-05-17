@@ -1,0 +1,39 @@
+div{
+    display: inline-block;
+}
+.box1{
+    
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    margin: -4px;
+}
+
+.box2{
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    margin: -4px;
+}
+
+.box3{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    margin: -4px;
+}
+
+.box4{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    margin: -4px;
+}
+
+.box5{
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    margin: -4px;
+}
+
