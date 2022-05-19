@@ -1,26 +1,19 @@
-div{
+div.container > div{
     display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
 }
 .box1{
     border: 3px solid black;
     background-color: red;
-    width: 30px;
-    height: 30px;
     color: rgb (50, 80, 20);
-    padding-top: 10px;
-    color:yellow;
-    text-align: center;
-
-    
 }
 
 .box2{
     border: 3px solid red;
     background-color: green;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    padding-top: 10px;
     color:darkcyan;
     margin-left: -4px;
 }
@@ -28,10 +21,6 @@ div{
 .box3{
     border: 3px solid violet;
     background-color: blue;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    padding-top: 10px; 
     color:lawngreen;
     margin-left: -4px;
 }
@@ -39,20 +28,12 @@ div{
 .box4{
     border: 3px solid yellow;
     background-color: black;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    padding-top: 10px;
     color:rgb(120, 200,50);
     margin-left: -4px;
 }
 .box5{
     border: 3px solid blue;
     background-color: yellow;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    padding-top: 10px;
     color:blueviolet;
     margin-left: -4px;
 }

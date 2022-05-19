@@ -1,0 +1,64 @@
+#ejUno{
+    transition: width 2s;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+/*Clase que hace las propiedades cuando se pasa el mouse por encima*/
+#ejUno:hover {
+    /*cuánto se tiene que agrandar el ancho cuando pase el mouse por encima*/
+    width: 300px;
+  }
+
+  #ejDos {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+    transition-timing-function:ease-in-out;
+   
+  }
+  
+  #ejDos:hover {
+    width: 300px;
+  }
+
+  #ejTres {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+    transition-delay: 0.5;
+
+   
+  }
+
+  #ejTres:hover {
+    width: 300px;
+  }
+
+  #ejCuatro {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: background 2s, transform 2s;
+ 
+  }
+  
+  #ejCuatro:hover {
+    background: blue;
+    transform: rotate(180deg);
+  }
+
+  #ejCinco {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, ease-in-out 0.5s;
+
+  
+  }
+  
+  #ejCinco:hover {
+    width: 400px;
+  }
