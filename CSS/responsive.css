@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Baloo 2';
+    background-color:rgba(7, 170, 240, 0.3);
+}
+/*
+.contenedor{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+*/
+/*Cabecera*/
+header{
+    background-color:rgba(47, 180, 237, 0.3);
+    padding: 8px;
+    
+}
+
+.cabecera{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+
+img{
+    width: 130px;
+    height: 100px;
+}
+
+.logo{
+    margin:15px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color:rgba(23, 94, 94, 0.613);
+
+}
+
+.titulo h2{
+    margin-top: -15px;
+    font-size: 20px;
+}
+
+.titulo{
+    margin-top: -10px;
+    margin-left: 15px;
+    color:rgba(23, 94, 94, 0.613);
+}
+
+.buscar{
+    margin-left: 240px;
+    margin-top: 50px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(23, 94, 94, 0.613);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.buscar_texto{
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    transition: .3s;
+    width: 0;
+}
+
+.boton{
+    width: 20px;
+    height: 20px;
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.buscar:hover > .buscar_texto{
+    width: 280px;
+}
+
+.login{
+    position: absolute;
+    margin-left: 1235px;
+}
+.login button{
+    background-color:rgba(23, 94, 94, 0.613);
+    border: none;
+    padding:5px;
+    margin:3px;
+    border-radius: 5px;
+}
+
+.login button a{
+    color: white;
+    text-decoration: none;
+    font-family:'Baloo 2';
+}
+
+.login button:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.social_media {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 1270px;
+}
+
+.social_media a{
+    display: inline-block;
+    color: rgba(23, 94, 94, 0.613);
+    font-size: 25px;
+}
+
+
+.social_media a:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+/*Fin de cabecera*/
+
+/*Menú*/
+.menu{
+    margin-left: 440px;
+    
+}
+.menu li a{
+    display: block;
+    padding:10px 15px;
+    text-decoration: none;
+    color:rgba(23, 94, 94, 0.613);
+    font-size:30px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 20px;
+}    
+
+.menu > li{
+    float: left;
+    list-style: none;
+}
+
+.menu li a:hover{
+    background-color:rgba(0, 175, 250, 0.329);
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    
+}
+
+.menu li ul li{
+    list-style: none;
+    margin-top:-20px;
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+/*Fin del menú*/
+
+/*Ofertas*/
+
+.ofertas{
+    background-color: rgb(231, 78, 188,0.3);
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    width: 280px;
+    height: 260px;
+    margin-top: 300px;
+    margin-left: 160px;
+    padding-right: 25px;
+    padding-left: 25px;
+    
+}
+
+.ofertas h2{
+    font-size: 55px;
+    color:rgb(153, 34, 119);
+    margin-top: 10px;
+}
+.ofertas h3{
+    color:rgb(99, 33, 80);
+    font-size: 20px;
+}
+
+.boton_ofertas{
+    padding:10px;
+    margin:5px;
+    align-items: center;
+}
+
+.boton_ofertas button{
+    background-color:rgb(153, 34, 119);
+    border-radius: 10px;
+    border:none;
+
+    width: 90px;
+    height: 30px;
+}
+
+.ofertas a{
+    color:white;
+    font-family:'Baloo 2';
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.ofertas button:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+}
+/*Contacto*/
+.contacto{
+    background-color:rgba(55, 203, 129, 0.3);
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 615px;
+    margin-left: 90px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.contacto h2{
+    font-size: 45px;
+    color:rgb(36, 130, 83);
+    text-align: center;
+}
+
+.contacto p{
+    color:rgb(24, 73, 48);
+}
+.contacto label{
+    color:rgb(24, 73, 48);
+}
+
+.contacto textarea{
+    font-family:'Baloo 2';
+    color:rgb(24, 73, 48);
+    
+}
+
+.botones{
+    border:none;
+    padding:5px;
+    font-family:'Baloo 2';
+    background-color:rgb(36, 130, 83);
+    color: white;
+}
+/*Contenido principal*/
+aside{
+    display: flex;
+    align-items: center;
+    width: 1370px;
+    height: 1000px;
+}
+
+.contenido_principal{
+    background-color: rgba(24, 158, 178, 0.3);
+    padding-left: 30px;
+    padding-top:10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-left: 530px;
+    margin-top: 190px;
+    color:rgb(15, 89, 100);
+}
+
+.contenido_principal h2{
+    font-size: 50px;
+    text-align: center;
+}
+.contenido_principal p{
+    margin-top: 15px;
+}
+.contenido_principal ol{
+    margin-left: 80px;
+}
+
+.contenido_principal ol li{
+    text-decoration: solid;
+}
+
+/*Footer*/
+.footer{
+    text-align: center;
+    color:rgb(23, 94, 94);
+    margin:20px;
+}
+
+.footer a{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color:rgb(23, 94, 94);
+}
+/*Responsive*/
+
+/*Tamaño móvil*/
+
+/*Tamaño tablet*/
+
+
+/*Tamaño ordenador*/
