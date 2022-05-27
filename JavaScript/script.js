@@ -102,13 +102,10 @@ function aleatorio(min,max){
     return aleatorio;
 }
 
-
-
 for (let i = 0; i <= 50; i++){
     arrayAleatorios[i] = aleatorio(1,6);
 }
 
-document.write(arrayAleatorios);
 minimo = Math.min(...arrayAleatorios);
 maximo = Math.max(...arrayAleatorios);
 
