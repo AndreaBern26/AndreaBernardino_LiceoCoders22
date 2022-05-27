@@ -114,3 +114,5 @@ maximo = Math.max(...arrayAleatorios);
 
 document.write ("El mayor número del array es: " + maximo + " y el más pequeño es: " + minimo);
 
+/*Da igual las veces que se ejecute, como el intervalo de números es del 1 al 6, siempre va a ser como máximo el 6 y como mínimo el 1 */
+
