@@ -1,6 +1,4 @@
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
 
@@ -15,8 +13,8 @@ body{
     margin: 0 auto;
     overflow: hidden;
 }
+
 */
-/*Cabecera*/
 header{
     background-color:rgba(47, 180, 237, 0.3);
     padding: 8px;
