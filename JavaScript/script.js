@@ -68,7 +68,7 @@ function miFuncionLet(){
 
 alert("El valor de la variable de mi función con let es " + miFuncionLet (miVariableLet));
 
-var miVariableConst = "variable con Const";
+const miVariableConst = "variable con Const";
 alert ("El valor de mi variable es " + miVariableConst);
 
 function miFuncionConst(){
