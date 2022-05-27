@@ -97,16 +97,18 @@ let arrayAleatorios = [];
 let minimo;
 let maximo;
 
-function aleatorio(){
-    let aleatorio = Math.random();
+function aleatorio(min,max){
+    let aleatorio = Math.floor((Math.random() * (max - min + 1)) + min);
     return aleatorio;
 }
 
 
 
 for (let i = 0; i <= 50; i++){
-    arrayAleatorios[i] = aleatorio();
+    arrayAleatorios[i] = aleatorio(1,6);
 }
+
+document.write(arrayAleatorios);
 minimo = Math.min(...arrayAleatorios);
 maximo = Math.max(...arrayAleatorios);
 
