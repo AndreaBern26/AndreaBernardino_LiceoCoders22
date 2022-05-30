@@ -12,10 +12,12 @@ function perimetroCuadrado (lado){
     return 4 * lado;
 }
 
+/* A = l * l */
 function areaCuadrado (lado){
     return lado * lado;
 }
 
+/*La hipotenusa de un triángulo se calcula mediante el Teorema de Pitágoras -> h^2 = a^2 + b^2 */
 function hipotenusaTriangulo (a,b){
     
     function cuadrados (a){
