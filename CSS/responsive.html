@@ -8,20 +8,14 @@
 
     <link rel="stylesheet" href="./responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Bubblegum+Sans&family=Grape+Nuts&family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./icons/styles.css">
+    <link rel="stylesheet" href="./imagenes/icons/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
-    <div class="contenedor">
         <header>
             <div class="cabecera">
                 <div class="logo">
-                    <img src="./imagenes/logo.jpg" alt="Logo de un libro abierto">
-                </div>
-    
-                <div class="titulo">
-                    <h1>El rincón del borde </h1>
-                    <h2>Donde los bordes por naturaleza aprenden el máster de la bordería</h2>
+                    <img src="./imagenes/El rincón del borde.jpg" alt="Logo de un libro abierto">
                 </div>
     
                 <div class="buscar">
@@ -77,88 +71,92 @@
         </nav>
     
         <main>
-            <section>
-                <div class="ofertas">
-                    <h2>OFERTAS</h2>
-                    <h3>No te pierdas nuestras ofertas de hasta un 50% de descuento</h3>
+            <div class="main">
+                <div class="grupo1">
+                    <section>
+                        <div class="ofertas">
+                            <h2>OFERTAS</h2>
+                            <h3>No te pierdas nuestras ofertas de hasta un 50% de descuento</h3>
+                        
+                            <div class="boton_ofertas">
+                                <button>
+                                    <a href="ofertas" target="_blank">Click aquí</a>
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="contacto">
+                            <h2>¿Necesitas ayuda?</h2>
+                            <p>Contacta con nosotros sin ningún tipo de compromiso</p>
+                            <form action="#" target="_blank">
+                                <label for="nombre">Nombre*: <input type="text"></label><br>
+                                <label for="email">Email*: <input type="text"></label><br>
+                                <textarea name="comentario" placeholder="Escribe tu comentario aquí..." cols="30" rows="10"></textarea><br>
+                                <input class="botones" type="submit" value="Enviar">
+                                <input class="botones" type="reset" value="Resetear">
+                            </form>
+                        </div>
+                    </section>
+                </div>
                 
-                    <div class="boton_ofertas">
-                        <button>
-                            <a href="ofertas" target="_blank">Click aquí</a>
-                        </button>
+                  
+               <!--  <aside>
+                    <div class="contenido_principal">
+                        <h2>¡Bienvenido!</h2>
+                        <p>
+                            Bienvenido al rincón del borde, donde te enseñamos a completar
+                            la mejor versión de ti, la sincera. La versión que siempre desea salir
+                            en la mayoría de conversaciones pero la acallas por educación, cortesía
+                            o por no buscar problemas. 
+                        </p>
+                        <p>
+                            Bien, si estás aquí es porque has llegado al punto de estar tan
+                            hasta las narices del mundo que quieres empezar a expresarte, sí, pero
+                            con clase. O bien conoces a el/la mister/miss bordeuniverso y quieres tener un
+                            detalle bonito, que ya que se hacen las cosas, que se hagan bien.
+                        </p>
+                        <p>
+        
+                            Pues no se hable más. Aquí encontrarás frases para el día a día, 
+                            regalos con esa pullita o ese toque picarón que deseas pero no te sale,
+                            e incluso ideas para que saques tu mejor borderío a flote.
+                        </p>
+                        <p>
+                            Sin más dilación, aquí te presentamos algunas frases como regalo de 
+                            bienvenida:
+                        </p>
+                        <ol>
+                            <li>Hoy iba a ser un gran día pero llegaste tú a estropearlo</li>
+                            <li>Hoy no puedo ni fingir que me caes bien</li>
+                            <li>Perdón por dejarte en visto, no era mi intención abrir tu mensaje.</li>
+                            <li>Para odiar a alguien se necesita tiempo e interés y no tengo ninguno de los dos</li>
+                            <li>Madrugo cada día porque nací guapa pero no rica.</li>
+                            <li>Están lloviendo hostias y tú tienes cara de aeropuerto.</li>
+                            <li>Tienes el síndrome de la abeja, te crees la reina y sólo eres un bicho.</li>
+                            <li>No te insulto, sólo te defino brevemente.</li>
+                            <li>Me gustaría insultarte, pero no lo haría tan bien como lo hizo la naturaleza.</li>
+                            <li>No soy borde, sólo tengo intolerancia a los fantasmas como tú.</li>
+                        </ol>
+                        <p>
+                            ...Y muchas más que os esperan en nuestro catálogo.
+                        </p>
+                        <p>
+                            Bordes, contamos con vuestra espada para hacer de este mundo, un lugar mejor.
+                            ¡Al ataque! 
+                        </p>
                     </div>
-                </div>
-            </section>
-            <section>
-                <div class="contacto">
-                    <h2>¿Necesitas ayuda?</h2>
-                    <p>Contacta con nosotros sin ningún tipo de compromiso</p>
-                    <form action="#" target="_blank">
-                        <label for="nombre">Nombre*: <input type="text"></label><br>
-                        <label for="email">Email*: <input type="text"></label><br>
-                        <textarea name="comentario" placeholder="Escribe tu comentario aquí..." cols="30" rows="10"></textarea><br>
-                        <input class="botones" type="submit" value="Enviar">
-                        <input class="botones" type="reset" value="Resetear">
-                    </form>
-                </div>
-            </section>
-              
-            <aside>
-                <div class="contenido_principal">
-                    <h2>¡Bienvenido!</h2>
-                    <p>
-                        Bienvenido al rincón del borde, donde te enseñamos a completar
-                        la mejor versión de ti, la sincera. La versión que siempre desea salir
-                        en la mayoría de conversaciones pero la acallas por educación, cortesía
-                        o por no buscar problemas. 
-                    </p>
-                    <p>
-                        Bien, si estás aquí es porque has llegado al punto de estar tan
-                        hasta las narices del mundo que quieres empezar a expresarte, sí, pero
-                        con clase. O bien conoces a el/la mister/miss bordeuniverso y quieres tener un
-                        detalle bonito, que ya que se hacen las cosas, que se hagan bien.
-                    </p>
-                    <p>
-    
-                        Pues no se hable más. Aquí encontrarás frases para el día a día, 
-                        regalos con esa pullita o ese toque picarón que deseas pero no te sale,
-                        e incluso ideas para que saques tu mejor borderío a flote.
-                    </p>
-                    <p>
-                        Sin más dilación, aquí te presentamos algunas frases como regalo de 
-                        bienvenida:
-                    </p>
-                    <ol>
-                        <li>Hoy iba a ser un gran día pero llegaste tú a estropearlo</li>
-                        <li>Hoy no puedo ni fingir que me caes bien</li>
-                        <li>Perdón por dejarte en visto, no era mi intención abrir tu mensaje.</li>
-                        <li>Para odiar a alguien se necesita tiempo e interés y no tengo ninguno de los dos</li>
-                        <li>Madrugo cada día porque nací guapa pero no rica.</li>
-                        <li>Están lloviendo hostias y tú tienes cara de aeropuerto.</li>
-                        <li>Tienes el síndrome de la abeja, te crees la reina y sólo eres un bicho.</li>
-                        <li>No te insulto, sólo te defino brevemente.</li>
-                        <li>Me gustaría insultarte, pero no lo haría tan bien como lo hizo la naturaleza.</li>
-                        <li>No soy borde, sólo tengo intolerancia a los fantasmas como tú.</li>
-                    </ol>
-                    <p>
-                        ...Y muchas más que os esperan en nuestro catálogo.
-                    </p>
-                    <p>
-                        Bordes, contamos con vuestra espada para hacer de este mundo, un lugar mejor.
-                        ¡Al ataque! 
-                    </p>
-                </div>
-            </aside>
+                </aside> -->
+            </div>
         </main>
     
-        <footer>
+        <!-- <footer>
             <div class="footer">
                 <p>Copyright © 2022 - El rincón del borde</p>
                 <a href="" target="_blank">Política de privacidad</a>
                 <a href="" target="_blank">Cookies</a>
                 <a href="" target="_blank">Condiciones de uso y venta</a>
             </div>
-        </footer>
-    </div>
+        </footer> -->
 </body>
 </html>

@@ -102,7 +102,7 @@ function aleatorio(min,max){
     return aleatorio;
 }
 
-for (let i = 0; i <= 50; i++){
+for (let i = 0; i < 50; i++){
     arrayAleatorios[i] = aleatorio(1,6);
 }
 
