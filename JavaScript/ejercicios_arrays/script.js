@@ -70,5 +70,5 @@ for (let i = 0; i < alumnos_json.length;i++){
         + ". Ciudad de residencia: " + alumnos_json[i].ciudad_residencia + "<p>";
 }
 
-lista =  document.getElementsByClassName('content')[0].innerHTML;
+document.getElementsByClassName('content')[0].innerHTML = lista;
 
