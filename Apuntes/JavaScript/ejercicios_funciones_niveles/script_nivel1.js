@@ -104,12 +104,12 @@ function bmi (peso, altura){
     console.log ("Los mismos grupos se aplican tanto a hombres como a mujeres");
     console.log ("Su IMC es de " + bmi);
 
-    if (bmi < 18,5){
-        console.log("Bajo peso: el IMC es inferior a 18,5");
+    if (bmi < 18.5){
+        console.log("Bajo peso: el IMC es inferior a 18.5");
     }else if (18.5 <= bmi < 24.9){
         console.log ("Peso normal: el IMC es de 18,5 a 24.9");
     }else if (25 < bmi < 29.9){
-        console.log ("Sobrepeso: el IMC es de 25 a 29,9");
+        console.log ("Sobrepeso: el IMC es de 25 a 29.9");
     }else{
         console.log ("Obeso: IMC es 30 o más");
     }
@@ -120,19 +120,39 @@ bmi(52, 1.58);
  /*Ejercicio 14: Escribe una función llamada checkSeason, toma un parámetro de mes y devuelve la estación: Otoño, Invierno, Primavera o Verano.*/
 
  function checkSeason (mes){
-    if (12 <= mes <=3){
-        return "Invierno";
-    }else if (4 < mes <= 6){
-        return "Primavera";
-    }else if (7 < mes <= 9){
-        return "Verano";
-    }else if (10 < mes < 12){
-        return "Otoño";
+    let estacion = "";
+
+    if (1 < mes || mes > 12){
+        console.log ("Error, los meses del año van del 1 al 12. Elija un valor correcto");
+    }else if (12 <= mes <=3){
+        estacion = "Invierno";
+    }else if (4 <= mes <= 6){
+       estacion = "Primavera";
+    }else if (7 <= mes <= 9){
+        estacion = "Verano";
+    }else if (10 <= mes <= 12){
+        estacion = "Otoño";
     }
+    
+    return "La estación del año es " + estacion;
  }
 
- console.log ("La estación del año es " + checkSeason(5));
+ console.log (checkSeason(2));
  
  /*Ejercicio 15: Math.max devuelve su argumento más grande. Escriba una función findMax que tome tres argumentos y devuelva su máximo sin usar el método Math.max.*/
 
+ function findMax(a,b,c){
+    if (a > b && a > c){
+        return a;
+    }
 
+    if (b > a && b > c){
+        return b;
+    }
+
+    if (c > a && c > b){
+        return c;
+    }
+ }
+
+ console.log("El argumento más grande es el: " + findMax(3,6,12));
