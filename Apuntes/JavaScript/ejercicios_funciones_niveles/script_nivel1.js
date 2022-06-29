@@ -120,24 +120,30 @@ bmi(52, 1.58);
  /*Ejercicio 14: Escribe una función llamada checkSeason, toma un parámetro de mes y devuelve la estación: Otoño, Invierno, Primavera o Verano.*/
 
  function checkSeason (mes){
-    let estacion = "";
 
-    if (1 < mes || mes > 12){
+    if (1 > mes || mes > 12){
         console.log ("Error, los meses del año van del 1 al 12. Elija un valor correcto");
-    }else if (12 <= mes <=3){
-        estacion = "Invierno";
-    }else if (4 <= mes <= 6){
-       estacion = "Primavera";
-    }else if (7 <= mes <= 9){
-        estacion = "Verano";
-    }else if (10 <= mes <= 12){
-        estacion = "Otoño";
+    }
+
+    if (1 <= mes && mes <= 3){
+        return "La estación del años es Invierno";
     }
     
-    return "La estación del año es " + estacion;
+    if (4 <= mes && mes <= 6){
+        return "La estación del años es Primavera";
+    }
+    
+    if (7 <= mes && mes <= 9){
+        return "La estación del años es Verano";
+    }
+    
+    if (10 <= mes && mes <= 12){
+        return "La estación del años es Otoño";
+    }
+              
  }
 
- console.log (checkSeason(2));
+ console.log (checkSeason(6));
  
  /*Ejercicio 15: Math.max devuelve su argumento más grande. Escriba una función findMax que tome tres argumentos y devuelva su máximo sin usar el método Math.max.*/
 
@@ -156,3 +162,5 @@ bmi(52, 1.58);
  }
 
  console.log("El argumento más grande es el: " + findMax(3,6,12));
+
+ 
