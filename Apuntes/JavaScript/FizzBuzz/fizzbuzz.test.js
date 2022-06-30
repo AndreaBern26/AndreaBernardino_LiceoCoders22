@@ -29,12 +29,14 @@ describe('fizzbuzz', () =>{
 
         expect(expected).toBe(result);
     });
+    
     test("Debe devolver 'fizz' si le paso un 9",()=>{
         const expected = 'fizz';
         const result = fizzbuzz(9);
 
         expect(expected).toBe(result);
     });
+
     test("Debe devolver 'fizz' si le paso un 12",()=>{
         const expected = 'fizz';
         const result = fizzbuzz(12);
@@ -101,12 +103,14 @@ describe('fizzbuzz', () =>{
 
         expect(expected).toBe(result);
     });
+
     test("Debe devolver 'fizz' si le paso un 234",()=>{
         const expected = 'fizz';
         const result = fizzbuzz(234);
 
         expect(expected).toBe(result);
     });
+
     test("Debe devolver 'fizz' si le paso un 32",()=>{
         const expected = 'fizz';
         const result = fizzbuzz(32);
