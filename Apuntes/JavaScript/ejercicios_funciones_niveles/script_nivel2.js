@@ -1,10 +1,6 @@
 /*Ejercicio 1: La ecuación lineal se calcula de la siguiente manera: ax + by + c = 0. Escriba una función que calcule el valor de una ecuación lineal, solveLinEquation*/
-/*
-const linEquation = (a,b,c) =>{
-   
-} 
 
-console.log (linEquation(-2,5,7));
+
 
 /*Ejercicio 2: La ecuación cuadrática se calcula de la siguiente manera: ax2 + bx + c = 0. Escriba una función que calcule el valor o los valores de una ecuación 
 cuadrática, solveQuadEquation.*/
@@ -42,22 +38,39 @@ printArray([5,3,-2,14,5,-13,29]);
 
 /*Ejercicio 4: Escriba un nombre de función showDateTime que muestre la hora en este formato: 01/08/2020 04:08 usando el objeto Date.*/
 
-function showDateTime (){
-    let date = new Date();
+function showDateTime (year, month, day, hour, min){
+    let date = new Date(year, month, day, hour, min);
     return date;
 }
 
 console.log(showDateTime(2020,08,01,04,08));
 
-
-let date = new Date();
-console.log(date);
-
 /*Ejercicio 5: Declare un nombre de función swapValues. Esta función intercambia el valor de x a y*/
 
+function swapValues (x,y){
+    let swapX = x;
+    let swapY = y;
+
+    x = swapY;
+    y = swapX;
+
+    return "Nuevo valor de x: " + x + ". Nuevo valor de y: " + y;
+}
+
+console.log(swapValues(-53,78));
 
 /*Ejercicio 6: Declare un nombre de función reverseArray. Toma una matriz como parámetro y devuelve el reverso de la matriz (no use el método).*/
 
+function reverseArray(array){
+    let newArray = [];
+    for (let i = 0; i < array.length; i++){
+        newArray[i] = array[i];
+    }
+
+    return newArray;
+}
+
+console.log(reverseArray([4,6,823,-2,0,2]));
 
 /*Ejercicio 7: Declare un nombre de función capitalizeArray. Toma array como parámetro y devuelve el - capitalizedarray.*/
 

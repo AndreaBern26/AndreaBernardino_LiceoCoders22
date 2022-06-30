@@ -78,4 +78,61 @@ describe('fizzbuzz', () =>{
 
         expect(expected).toBe(result);
     });
+
+     //Tests que incluyan el 15
+     test("Debe devolver 'fizzbuzz' si le paso un 215",()=>{
+        const expected = 'fizzbuzz';
+        const result = fizzbuzz(215);
+
+        expect(expected).toBe(result);
+    });
+
+    test("Debe devolver 'fizzbuzz' si le paso un 10150",()=>{
+        const expected = 'fizzbuzz';
+        const result = fizzbuzz(10150);
+
+        expect(expected).toBe(result);
+    });
+
+    //Tests de numeros que incluyen el 3
+    test("Debe devolver 'fizz' si le paso un 123",()=>{
+        const expected = 'fizz';
+        const result = fizzbuzz(123);
+
+        expect(expected).toBe(result);
+    });
+    test("Debe devolver 'fizz' si le paso un 234",()=>{
+        const expected = 'fizz';
+        const result = fizzbuzz(234);
+
+        expect(expected).toBe(result);
+    });
+    test("Debe devolver 'fizz' si le paso un 32",()=>{
+        const expected = 'fizz';
+        const result = fizzbuzz(32);
+
+        expect(expected).toBe(result);
+    });
+
+    //Tests para numeros que incluyan el 5
+    test("Debe devolver 'buzz' si le paso un 145",()=>{
+        const expected = 'buzz';
+        const result = fizzbuzz(145);
+
+        expect(expected).toBe(result);
+    });
+
+    test("Debe devolver 'buzz' si le paso un 52",()=>{
+        const expected = 'buzz';
+        const result = fizzbuzz(52);
+
+        expect(expected).toBe(result);
+    });
+
+    test("Debe devolver 'buzz' si le paso un 85",()=>{
+        const expected = 'buzz';
+        const result = fizzbuzz(85);
+
+        expect(expected).toBe(result);
+    });
 });
