@@ -6,13 +6,13 @@
 */
 
 function fizzbuzz(n){
-    if (n == 0){
+    if (n === 0){
         return n;
-    }else if (n % 15 == 0 || (n + '').includes('15')){
+    }else if (n % 15 === 0 || (n + '').includes('15')){
         return 'fizzbuzz';
-    }else if (n % 3 == 0 || (n + '').includes('3')){
+    }else if (n % 3 === 0 || (n + '').includes('3')){
         return 'fizz';
-    }else if(n % 5 == 0 || (n + '').includes('5')){
+    }else if(n % 5 === 0 || (n + '').includes('5')){
         return 'buzz';
     }else{
         return n;
