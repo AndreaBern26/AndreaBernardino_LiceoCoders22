@@ -34,17 +34,13 @@ function solveQuadEquation (a,b,c){
     }  
 }
 
-console.log(solveQuadEquation(2,-7,3));
-
 /*Ejercicio 3: Declare un nombre de función printArray. Toma matriz como parámetro e imprime cada valor de la matriz.*/
 
 function printArray (matriz){
     for (let i = 0; i < matriz.length; i++){
-        console.log("Posición " + i + " del array: " + matriz[i]);
+        return  matriz[i];
     }
 }
-
-printArray([5,3,-2,14,5,-13,29]);
 
 /*Ejercicio 4: Escriba un nombre de función showDateTime que muestre la hora en este formato: 01/08/2020 04:08 usando el objeto Date.*/
 
@@ -234,3 +230,5 @@ La función devuelve el número hexadecimal*/
 
 /*Ejercicio 18: Declare un nombre de función userIdGenerator. Cuando se llama a esta función, genera una identificación de siete caracteres. La función devuelve el id.*/
 
+ /*Exports*/
+ module.exports = {solveQuadEquation,printArray,evensAndOdds,sumOfEven,sumOfOdds,removeItem};

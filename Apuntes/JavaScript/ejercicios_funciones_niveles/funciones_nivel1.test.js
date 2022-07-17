@@ -23,6 +23,31 @@ describe('funciones_nivel1', ()  =>{
         expect(resWaited).toBe(resReturned);
     });
 
+    test ("Cálculo del IMC", () =>{
+        const resWaited = 39;
+        const resReturned = bmi(120, 1.75);
+        expect(resWaited).toBe(resReturned);
+    });
+
+    //Tests Ejercicio 14
+
+    test ("Estaciones", () =>{
+        const resWaited = "La estación del año es Primavera";
+        const resReturned = checkSeason(5);
+        expect(resWaited).toBe(resReturned);
+    });
+    test ("Estaciones", () =>{
+        const resWaited = "La estación del año es Otoño";
+        const resReturned = checkSeason(12);
+        expect(resWaited).toBe(resReturned);
+    });
+    test ("Estaciones", () =>{
+        const resWaited = "La estación del año es Invierno";
+        const resReturned = checkSeason(1);
+        expect(resWaited).toBe(resReturned);
+    });
+
+
 
     //Tests Ejercicio 15*/
 
@@ -34,19 +59,6 @@ describe('funciones_nivel1', ()  =>{
     test ("Número más grande", () =>{
         const resWaited = 584;
         const resReturned = findMax(584, 21, -7);
-        expect(resWaited).toBe(resReturned);
-    });
-
-    //Tests Ejercicio 14
-
-    test ("Estaciones", () =>{
-        const resWaited = "La estación del añ es Primavera";
-        const resReturned = checkSeason(52, 238, 1);
-        expect(resWaited).toBe(resReturned);
-    });
-    test ("Estaciones", () =>{
-        const resWaited = 584;
-        const resReturned = checkSeason(584, 21, -7);
         expect(resWaited).toBe(resReturned);
     });
 

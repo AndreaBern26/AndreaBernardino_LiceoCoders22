@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/AndreaBern26/AndreaBernardino_LiceoCoders22#readme",
   "devDependencies": {
-    "jest": "^28.1.2"
+    "jest": "^28.1.2",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
   }
 }

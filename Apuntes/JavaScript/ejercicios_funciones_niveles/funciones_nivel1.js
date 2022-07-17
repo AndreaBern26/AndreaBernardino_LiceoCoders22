@@ -1,6 +1,3 @@
-/*Exports*/
-module.exports = {fullName, bmi, findMax, checkSeason};
-
 /*Ejercicio 1: Declare una función fullName e imprima su nombre completo.*/
 
 function fullName1 (){
@@ -109,9 +106,9 @@ function bmi (peso, altura){
 
     if (bmi < 18.5){
         console.log("Bajo peso: el IMC es inferior a 18.5");
-    }else if (18.5 <= bmi < 24.9){
+    }else if (bmi < 24.9){
         console.log ("Peso normal: el IMC es de 18,5 a 24.9");
-    }else if (25 < bmi < 29.9){
+    }else if (bmi < 29.9){
         console.log ("Sobrepeso: el IMC es de 25 a 29.9");
     }else{
         console.log ("Obeso: IMC es 30 o más");
@@ -131,21 +128,20 @@ bmi(52, 1.58);
     }
 
     if (1 <= mes && mes <= 3){
-        return "La estación del años es Invierno";
+        return "La estación del año es Invierno";
     }
     
     if (4 <= mes && mes <= 6){
-        return "La estación del años es Primavera";
+        return "La estación del año es Primavera";
     }
     
     if (7 <= mes && mes <= 9){
-        return "La estación del años es Verano";
+        return "La estación del año es Verano";
     }
     
     if (10 <= mes && mes <= 12){
-        return "La estación del años es Otoño";
+        return "La estación del año es Otoño";
     }
-              
  }
 
  console.log (checkSeason(6));
@@ -168,4 +164,5 @@ bmi(52, 1.58);
 
  console.log("El argumento más grande es el: " + findMax(3,6,12));
 
- 
+ /*Exports*/
+module.exports = {fullName, bmi, findMax, checkSeason};
