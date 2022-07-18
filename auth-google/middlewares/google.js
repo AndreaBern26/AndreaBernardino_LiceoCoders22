@@ -11,7 +11,7 @@ const emails = ["andreabern26@gmail.com"]; //base de datos de prueba
 //  profile), and invoke a callback with a user object.
 
 passport.use(
-    "auth-goole", 
+    "auth-google", 
     new GoogleStrategy(
       {
         clientID:     process.env.GOOGLE_CLIENT_ID,
