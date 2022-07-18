@@ -13,7 +13,7 @@ app.use(passport.initialize()); //inicializo passport
 //Routes
 app.use(
     "/auth", 
-    passport.authenticate("auth-goole", {
+    passport.authenticate("auth-google", {
         //Configuración de la autenticación
         scope:[ //scope es el nivel de alcance a la info del usuario
             "https://www.googleapis.com/auth/userinfo.email", //Permite ver su dirección de correo electrónico
