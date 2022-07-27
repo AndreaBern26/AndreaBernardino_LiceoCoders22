@@ -27,7 +27,7 @@ app.get('/', (req,res) =>{ //Solicitamos la obtención de la url con .get('ruta'
     //res.json ({message: "Error"}); //También podemos mandar objetos json
     
     //res.render("index");//Representamos un archivo html renderizamos el archivo
-    res.render("index", {text: "World"});
+    res.render("index", {text: "Somos coders"});
 });
 
 const userRouter = require('./routes/users');
