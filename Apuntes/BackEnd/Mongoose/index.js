@@ -9,6 +9,8 @@ const product1 = new Product({
     price: 1300.99
 });
 
+
+
 /*
     El método nombreProducto.save() guarda el nuevo producto en la base
     de datos.
