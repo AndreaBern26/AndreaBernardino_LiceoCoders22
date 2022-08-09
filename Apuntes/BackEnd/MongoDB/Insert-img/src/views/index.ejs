@@ -1,0 +1,21 @@
+<%- include ('partials/head') %>
+    <title>Finterest</title>
+</head>
+<body>
+    <%- include ('partials/navigation') %>
+    <div class="container-cards">
+        <div class="card-img">
+            <% images.forEach(function (image) { %>
+                <div class="content-card">
+                    <img src="<%= image.path %>" alt="Imagen">
+                    <h5><%= image.title %></h5>
+                    <p> <%= image.description %></p>
+                    <p> <%= format(image.created_at) %></p>
+                    <a href="/image/<%= image._id %>">View Profile</a>
+                </div>
+            <% });%> 
+        </div>
+    </div>
+   
+</body>
+</html>

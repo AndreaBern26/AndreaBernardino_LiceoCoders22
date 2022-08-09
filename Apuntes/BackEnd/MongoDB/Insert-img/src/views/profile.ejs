@@ -1,0 +1,18 @@
+<%- include('partials/head') %>
+    <title>Image Profile</title>
+</head>
+<body>
+    
+    <div class="container-cards">
+        <div class="card-img">
+            <div class="content-card-profile">
+                <img src="<%= image.path %>" alt="Imagen">
+                <h5><%= image.title %></h5>
+                <p> <%= image.description %></p>
+                <p> <%= format(image.created_at) %></p>
+                <a href="/image/<%= image._id %>/delete">Delete Image</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
